@@ -90,13 +90,9 @@ def execute_and_measure_results(calls: list):
 5. Among qualified agents, selects the one with lowest current workload
 6. Updates agent's load counter and routes ticket automatically
 
-**WhyItWorked**: The symbolic approach succeeded because it codified human decision-making rules explicitly. Rather than learning patterns from data, the system implemented domain expertise directly as logical rules, making decisions transparent and immediately actionable.
 
-**CognitiveAssociation**: 
-- *Analogy*: Like a smart traffic controller that knows which roads lead where and how busy each route is currently
-- *Memory hook*: "Score High, Route Fast" - higher priority scores get faster, more direct routing
+The symbolic approach succeeded because it codified human decision-making rules explicitly. Rather than learning patterns from data, the system implemented domain expertise directly as logical rules, making decisions transparent and immediately actionable.
 
-**SpeakerLine**: "Our symbolic AI reduced critical ticket triage time from minutes to seconds by automatically calculating priority scores and routing to the least busy qualified agent."
 
 ### ResultBlock 2
 **ResultSummary**: Load balancing optimization prevented agent overload while maintaining 100% coverage for escalated tickets
@@ -110,14 +106,6 @@ def execute_and_measure_results(calls: list):
 4. When no qualified agents available, triggers SENIOR_ESCALATION
 5. System tracks final load distribution across all agents
 6. Provides visibility into productivity optimization results
-
-**WhyItWorked**: Load balancing worked because it implemented a fair distribution algorithm that considered both expertise matching and current capacity, preventing bottlenecks while ensuring service quality.
-
-**CognitiveAssociation**:
-- *Analogy*: Like a restaurant host who seats customers based on both table size and server availability
-- *Memory hook*: "Balance the Load, Optimize the Road" - even distribution leads to smoother operations
-
-**SpeakerLine**: "The load balancing feature optimized agent productivity by distributing work evenly while ensuring critical tickets always find a qualified handler."
 
 ## What Was Achieved
 
